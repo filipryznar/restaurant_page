@@ -36,5 +36,5 @@ This project is a dynamically rendered restaurant homepage built as part of a le
 
 ## View the Completed Page
 
-You can view the finished page here: [LINK](#)
+You can view the finished page here: [LINK](https://filipryznar.github.io/restaurant_page/)
 
