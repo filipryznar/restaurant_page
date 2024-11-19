@@ -38,8 +38,3 @@ This project is a dynamically rendered restaurant homepage built as part of a le
 
 You can view the finished page here: [LINK](#)
 
-## How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/restaurant-page.git
