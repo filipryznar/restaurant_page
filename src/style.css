@@ -1,0 +1,125 @@
+/* Style for the header */
+header {
+  background-color: #a52a2a; /* Reddish-brown background */
+  padding: 20px 0; /* Vertical padding */
+  width: 100%; /* Full width */
+}
+
+/* Centering and styling the nav menu */
+header nav {
+  display: flex;
+  justify-content: center; /* Center align the menu */
+  gap: 20px; /* Space between menu items */
+}
+
+/* Styling the links */
+header nav a {
+  color: white; /* White font color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold font */
+  padding: 10px 15px; /* Add some padding around the links */
+}
+
+/* Add hover effect */
+header nav a:hover {
+  background-color: #8b0000; /* Darker red for hover */
+  border-radius: 5px; /* Rounded edges for hover */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #faf3e0;
+}
+h1 {
+  color: #a52a2a; /* Reddish-brown color to match header background */
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Add some vertical space */
+  font-family: Arial, sans-serif; /* Optional: specify a font */
+}
+#hero {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 400px; /* Set a maximum height (adjust as needed) */
+  object-fit: cover; /* Ensures the image fills the space, may crop */
+}
+
+#sections {
+  background-color: white; /* White background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 50%; /* Maximum width of 50% of the viewport */
+  padding: 16px; /* Padding inside the box */
+  margin: 20px auto; /* Space between sections and center align */
+  box-sizing: border-box; /* Include padding within the width */
+  overflow: hidden; /* Ensure content doesn’t overflow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+#sections:hover {
+  transform: translateY(-5px); /* Moves the section slightly upward */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Increases the shadow */
+}
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  #sections {
+    max-width: 90%; /* Increase width on smaller screens */
+  }
+}
+h3 {
+  color: #a52a2a; /* Same reddish-brown color as the header background */
+}
+#sections #chef {
+  font-style: italic; /* Make text italic */
+  text-align: right; /* Align text to the right */
+}
+#sections h3 {
+  margin-bottom: 16px; /* Adds a gap below the h3 heading */
+}
+
+#sections p {
+  margin: 4px 0; /* Reduces the gap between each paragraph */
+}
+
+nav a:hover {
+  background-color: #8b0000; /* Highlight on hover */
+  border-color: #8b0000; /* Match the hover background */
+  color: white; /* Ensure text remains white */
+}
+
+nav a.current {
+  background-color: #8b0000; /* Dark red to indicate selection */
+  color: white; /* White text for contrast */
+  border-color: #ffffff; /* White border for emphasis */
+}
+
+/* Contact us */
+.contactUsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.worker {
+  background-color: white; /* White background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 16px; /* Padding inside the box */
+  margin: auto; /* Space between sections and center align */
+  box-sizing: border-box; /* Include padding within the width */
+  overflow: hidden; /* Ensure content doesn’t overflow */
+  min-width: 300px;
+}
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .worker {
+    max-width: 90%; /* Increase width on smaller screens */
+  }
+}
+.workersContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
