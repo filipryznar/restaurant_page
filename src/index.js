@@ -4,6 +4,11 @@ import "./styleMenu.css";
 import { loadHomePage } from "./loadContent.js";
 import { loadMenuPage } from "./menuPage.js";
 import { loadContactPage } from "./contactPage.js";
+
+if (process.env.NODE_ENV !== "production") {
+  console.log("Looks like we are in development mode!");
+}
+
 loadHomePage();
 document.getElementById("home").classList.add("current");
 
